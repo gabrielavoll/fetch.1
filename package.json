@@ -1,0 +1,12 @@
+{
+  "name": "fetch+",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "test": "jest ./index --forceExit",
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^21.2.1",
+  }
+}
