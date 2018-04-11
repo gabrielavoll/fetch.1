@@ -1,12 +1,29 @@
 {
-  "name": "fetch+",
+  "name": "fetch.1",
   "version": "0.1.0",
-  "private": false,
+  "description": "wrapper for isomorphic-fetch module, that provides flags for basic requests",
+  "main": "index.js",
   "scripts": {
-    "test": "jest ./index --forceExit",
+    "test": "jest ./index --forceExit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gato333/fetch.1.git"
+  },
+  "keywords": [
+    "fetch",
+    "isomorphic-fetch",
+    "simplified",
+    "leaner"
+  ],
+  "author": "Gabriela Voll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gato333/fetch.1/issues"
+  },
+  "homepage": "https://github.com/gato333/fetch.1#readme",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
-    "jest": "^21.2.1",
+    "jest": "^21.2.1"
   }
 }
